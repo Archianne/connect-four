@@ -1,5 +1,6 @@
-  const squares = document.querySelectorAll(".grid div");
+  const squares = document.querySelectorAll(".square");
   const result = document.querySelector("#result");
+  const grid = document.querySelector(".grid")
   const displayCurrentPlayer = document.querySelector("#current-player");
   let currentPlayer = 1;
 
@@ -88,7 +89,8 @@
         square3.classList.contains("player-one") &&
         square4.classList.contains("player-one")
       ) {
-        result.innerHTML = "Player One Wins!";
+        grid.innerHTML = "Player One Wins!";
+        displayCurrentPlayer.innerHTML = "";
       }
 
       if (
@@ -97,7 +99,8 @@
         square3.classList.contains("player-two") &&
         square4.classList.contains("player-two")
       ) {
-        result.innerHTML = "Player Two Wins!";
+        grid.innerHTML = "Player Two Wins!";
+        displayCurrentPlayer.innerHTML = "";
       }
     }
   };
@@ -112,12 +115,12 @@
           squares[i].classList.add("taken");
           squares[i].classList.add("player-one");
           currentPlayer = 2;
-          displayCurrentPlayer.innerHTML = currentPlayer;
+          displayCurrentPlayer.innerHTML = `Next: Player ${currentPlayer}`;
         } else if (currentPlayer == 2) {
           squares[i].classList.add("taken");
           squares[i].classList.add("player-two");
           currentPlayer = 1;
-          displayCurrentPlayer.innerHTML = currentPlayer;
+          displayCurrentPlayer.innerHTML = `Next: Player ${currentPlayer}`;
         }
       } else;
       checkBoard();
