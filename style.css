@@ -68,9 +68,7 @@ body {
 }
 
 .x {
-  height: 1px;
-  border: none;
-  background: none !important;
+  display: none;
 }
 
 .player-one {
