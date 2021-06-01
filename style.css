@@ -47,18 +47,25 @@ body {
   justify-content: center;
 }
 
-.grid div {
+.square {
   height: 70px;
   width: 70px;
   border: 1px black solid;
 }
 
+.x {
+  height: 1px;
+  border: none;
+}
+
 .player-one {
-  background-color: red;
+  background-color: tomato;
+  border: 2px solid var(--accent3);
   border-radius: 50%;
 }
 
 .player-two {
-  background-color: blue;
+  background-color: royalblue;
+  border: 2px solid var(--accent3);
   border-radius: 50%;
 }
