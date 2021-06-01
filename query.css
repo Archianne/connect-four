@@ -1,21 +1,21 @@
 body {
-    margin: 0;
-  }
-  
-  .box {
-    width: 100vw;
-    height: auto;
-    border-radius: 0;
-  }
-  
-  .grid {
-    width: 100vw;
-    height: auto;
-    margin: 0 0 30px;
-    padding: 10px;
-  }
-  
-  .square {
-    width: calc(100vw / 8);
-    height: calc(100vw / 8);
-  }
+  margin: 0;
+}
+
+.box {
+  width: 100vw;
+  height: auto;
+  border-radius: 0;
+}
+
+.grid {
+  width: 100vw;
+  height: auto;
+  margin: 0 0 30px;
+  padding: 10px;
+}
+
+.square {
+  width: calc(100vw / 8);
+  height: calc(100vw / 8);
+}
