@@ -10,7 +10,7 @@ Simple retro game, made with HTML, CSS and Vanilla JavaScript.
 
 |[Play Game](https://archianne.github.io/connect-four/)  |
 |--|
-| ![game](https://) |
+| ![game](https://github.com/Archianne/connect-four/blob/main/img/game.png?raw=true) |
 
 ### How to Play
 - You will start as player one
