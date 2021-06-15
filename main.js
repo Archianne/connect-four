@@ -126,3 +126,17 @@ for (let i = 0; i < squares.length; i++) {
     checkBoard();
   };
 }
+
+//computer thinking
+
+// Completely random -> Pick a random column to place a tile in
+// Slightly Better -> If there’s a column with one of your tiles in,
+// pick that, else Go to 1
+// Slightly Better Still -> Pick the column which has the slot which
+// will complete the longest available line of your pieces
+//(this needs breaking down itself, but you get the picture), or Go to 2
+// Good - Look for almost complete lines, if you find one then
+// complete it, else Go to 3
+// etc etc
+
+//available slots

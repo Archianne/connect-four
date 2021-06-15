@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 :root {
-  --accent1: #f89e9d;
-  --accent2: #6490d2;
+  --accent1: #FF6347;
+  --accent2: #333;
   --accent3: #f8f4eb;
+  --accent4: #003B6F
 
   --text-font: 12px "Poppins";
   --title-font: 2em "Lobster";
@@ -18,6 +19,16 @@ body {
   background-color: var(--accent1);
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+}
+
+h1 {
+  font: var(--title-font);
+  color: #003B6F;
+  font-weight: bold;
+}
+
+#current-player {
+  font-size: 12px;
 }
 
 .container {
